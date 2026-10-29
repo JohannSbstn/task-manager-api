@@ -1,4 +1,4 @@
-package com.johannsbstn.task_manager_api.model;
+package com.johannsbstn.taskmanager.model;
 
 import jakarta.persistence.*;
 
