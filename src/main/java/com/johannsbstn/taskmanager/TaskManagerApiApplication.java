@@ -1,4 +1,4 @@
-package com.johannsbstn.task_manager_api;
+package com.johannsbstn.taskmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
