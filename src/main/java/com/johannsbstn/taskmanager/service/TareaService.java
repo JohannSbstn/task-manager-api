@@ -37,8 +37,7 @@ public class TareaService {
 
     @Transactional(readOnly = true)
     public TareaResponseDTO obtenerTareaPorId(Long id) {
-        Tarea tarea = tareaRepository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Tarea no encontrada"));
+        Tarea tarea = buscarTareaPorId(id);
 
         return mapearAResponse(tarea);
     }
